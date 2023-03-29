@@ -1,0 +1,47 @@
+body{
+  background-color: palevioletred;
+}
+#head{
+  color: whitesmoke;
+  border: 10px;
+  background-color: palevioletred;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.App{
+  background-color: whitesmoke;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do-form input{
+    background-color: palevioletred;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+#to-do-form input::placeholder{
+  color: whitesmoke;
+}
+#to-do-form input:focus, #to-do-form button:focus{
+  outline:none;
+}
+#to-do-form button{
+  height: 35px;
+  width: 50px;
+  border-radius: 5px;
+  border: 0;
+  background-color: palevioletred;
+  cursor: pointer;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
